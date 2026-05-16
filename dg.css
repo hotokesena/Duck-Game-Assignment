@@ -80,13 +80,13 @@
     50% { transform: translateY(-8px); }
   }
 
-  .duck-mascot {
+ /* .duck-mascot {
     font-size: 3rem;
     margin-top: 10;
      
     animation: duckWaddle 1s ease-in-out infinite alternate;
     filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15));
-  }
+  }*/
   @keyframes duckWaddle {
     from { transform: rotate(-10deg) translateY(0); }
     to { transform: rotate(8deg) translateY(-10px); }
