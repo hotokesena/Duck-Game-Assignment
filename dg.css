@@ -79,6 +79,13 @@
     0%,100% { transform: translateY(0); }
     50% { transform: translateY(-8px); }
   }
+.schoolname{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+  text-shadow: 4px 4px 0 var(--pink-dark), 6px 6px 0 rgba(0,0,0,0.1);
+    letter-spacing: 2px;
+    text-align: center;
+}
 
  /* .duck-mascot {
     font-size: 3rem;
