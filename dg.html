@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🦆Ducky Dash</title>
+<link rel="stylesheet" href="dg.css">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  
+
+  <script src="dg.js" defer></script> 
+  
+</head>
+
+<body>
+
+<!-- MENU SCREEN -->
+<div id="menu-screen">
+  <div class="duck-mascot">🦆</div>
+  <div class="game-title">DUCKY Jumping  <br>Game Assignment</div>
+
+  <div class="menu-card">
+    <h2>👥 Group Members From 12B</h2>
+    <ul class="members-list">
+      <li><div class="avatar">36</div> Sara Seid </li>
+      <li><div class="avatar">32</div> Rahel Getachew </li>
+      <li><div class="avatar">22</div> Mekdelawit Mulugeta </li>
+      <li><div class="avatar">8</div> Arsema Mechaldeg </li>
+      
+    </ul>
+
+    <div class="divider"></div>
+
+    <p class="instructions">
+      Press <span>SPACE</span> or <span>↑</span> to jump<br>
+      Avoid the cacti & keep waddling! 🌵
+    </p>
+
+    <button class="start-btn" onclick="startGame()">START!</button>
+  </div>
+</div>
+
+<!-- GAME SCREEN -->
+<div id="game-screen">
+
+  <!-- Decorative clouds -->
+  <div id="clouds"></div>
+
+  <div id="hud">
+    <span>🦆 DUCKY DASH</span>
+    <span id="score-display">SCORE: 0</span>
+    <span id="hi-display">BEST: 0</span>
+  </div>
+
+  <div id="canvas-container">
+    <canvas id="gameCanvas" width="900" height="200"></canvas>
+  </div>
+</div>
+
+<!-- GAME OVER OVERLAY -->
+<div id="overlay">
+  <div class="overlay-card">
+    <h2>🦆 QUACK!</h2>
+    <p>The cactus got you loser!!...</p>
+    <div class="score-display" id="final-score">Score: 0</div>
+    <div class="btn-row">
+      <button class="replay-btn" onclick="restartGame()">Again!</button>
+      <button class="menu-btn" onclick="goMenu()">Menu</button>
+    </div>
+  </div>
+</div>
+ 
+
+
+
+
+</body>
+</html>
