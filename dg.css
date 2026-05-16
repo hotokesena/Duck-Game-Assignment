@@ -68,6 +68,7 @@
     font-family: 'Fredoka One', cursive;
     font-size: 2rem;
     margin-top: 0;
+   margin-bottom: 0 ;
     color: var(--text-dark);
     text-shadow: 4px 4px 0 var(--pink-dark), 6px 6px 0 rgba(0,0,0,0.1);
     letter-spacing: 2px;
@@ -81,7 +82,7 @@
 
   .duck-mascot {
     font-size: 3rem;
-    margin-top: 50;
+    margin-top: 0;
      
     animation: duckWaddle 1s ease-in-out infinite alternate;
     filter: drop-shadow(0 8px 16px rgba(0,0,0,0.15));
