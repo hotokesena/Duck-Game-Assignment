@@ -327,40 +327,4 @@
   .menu-btn:active { transform: translateY(2px); box-shadow: 0 3px 0 #5a9e28; }
 
 
-/* media queries and breakpoints  */
-@media (max-width: 950px) {
-  #canvas-container {
-    width: 90vw; 
-  }
-  canvas {
-    width: 100%; 
-    height: auto;
-  }
-}
 
-
-@media (max-width: 600px) {
-  .menu-card {
-    min-width: 90vw; 
-    padding: 20px;
-  }
-
-  .game-title {
-    font-size: 1.5rem; 
-  }
-
-  .members-list li {
-    font-size: 0.9rem; 
-    padding: 8px 12px;
-  }
-
-  .start-btn {
-    font-size: 1.5rem;
-    padding: 10px 30px;
-  }
-
-  #hud {
-    font-size: 1rem;
-    padding: 10px;
-  }
-}
